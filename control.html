@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fearless Draft - Control</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Fearless Draft — Control</h1>
+
+    <div class="control-panel">
+      <div class="team-control">
+        <h2>Time Azul</h2>
+        <input type="text" id="blueTag" placeholder="Tag do time" />
+        <input type="text" id="blueInput" placeholder="Nome do campeão" />
+        <button id="blueAdd">Adicionar Ban</button>
+        <div id="blueList" class="ban-list"></div>
+      </div>
+
+      <div class="team-control">
+        <h2>Time Vermelho</h2>
+        <input type="text" id="redTag" placeholder="Tag do time" />
+        <input type="text" id="redInput" placeholder="Nome do campeão" />
+        <button id="redAdd">Adicionar Ban</button>
+        <div id="redList" class="ban-list"></div>
+      </div>
+    </div>
+
+    <div class="control-actions">
+      <button id="nextGame">Finalizar Game</button>
+      <button id="reset">Resetar Série</button>
+    </div>
+
+    <script src="control.js"></script>
+  </body>
+</html>

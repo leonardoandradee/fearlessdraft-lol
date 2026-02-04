@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Fixture";
+  src: url("../fonts/Fixture-CondensedExtraBold.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #0e0e10;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 80px 64px;
+}
+
+.control-panel {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.overlay {
+  padding: 10px;
+}
+
+.ban-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ban {
+  width: 64px;
+  height: 64px;
+}
+
+.ban img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.control-panel {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 2.4rem;
+}
+
+.game-row {
+  font-family: "Fixture", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.game-title {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  width: 420px;
+}
+
+.bans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-blue {
+  text-align: end;
+}
