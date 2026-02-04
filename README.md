@@ -141,4 +141,3 @@ O overlay pode ler essas informações em tempo real para exibição na live.
 
 Projeto livre para uso pessoal, educacional ou em campeonatos amadores.  
 Sinta-se livre para modificar e expandir o sistema conforme necessário.
-# fearlessdraft-lol
